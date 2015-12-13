@@ -9,4 +9,13 @@
     <color name="color노랑색">#ffff00</color>
     <color name="color분홍색">#ff00ff</color>
     <color name="color하늘색">#00ffff</color>
+    <color name="color검빨색">#800000</color>
+    <color name="color초록색">#008000</color>
+    <color name="color검파색">#000080</color>
+    <color name="color주황색">#ff8000</color>
+    <color name="color연파색">#00ff80</color>
+    <color name="color보라색">#8000ff</color>
+    <color name="color연초색">#80ff00</color>
+    <color name="color파랑색1">#0080ff</color>
+    <color name="color분홍색1">#ff0080</color>
 </resources>

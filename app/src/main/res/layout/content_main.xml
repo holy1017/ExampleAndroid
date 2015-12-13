@@ -36,22 +36,52 @@
             <TextView
                 android:text="Hello World3!"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="@color/color초록색"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                android:background="@color/color파랑색1"
+           >
+            <TextView
+                android:text="Hello World4!"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@color/color빨강색"
+                />
+            <TextView
+                android:text="Hello World5!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@color/color분홍색"
+                />
+            <TextView
+                android:text="Hello World6!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:background="@color/color보라색"
+                />
         </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
            >
             <TextView
-                android:text="Hello World4!"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:text="Hello World5!"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
                 android:text="Hello World6!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Hello World7!"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:background="@color/color연두색"
+                />
+            <TextView
+                android:text="Hello World8!"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
