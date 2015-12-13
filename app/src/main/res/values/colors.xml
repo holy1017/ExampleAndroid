@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="color빨강색">#ff0000</color>
+    <color name="color연두색">#00ff00</color>
+    <color name="color파랑색">#0000ff</color>
+    <color name="color노랑색">#ffff00</color>
+    <color name="color분홍색">#ff00ff</color>
+    <color name="color하늘색">#00ffff</color>
 </resources>
