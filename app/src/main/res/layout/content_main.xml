@@ -67,7 +67,7 @@
                 />
         </LinearLayout>
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
            >
             <TextView
@@ -78,12 +78,67 @@
                 android:text="Hello World7!"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
+                android:layout_gravity="center"
                 android:background="@color/color연두색"
                 />
             <TextView
                 android:text="Hello World8!"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@color/color보라색"
+            android:orientation="vertical"
+           >
+            <TextView
+                android:text="vertical 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@color/color연두색"
+                />
+            <TextView
+                android:text="vertical 2 center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/color연두색"
+                />
+            <TextView
+                android:text="vertical 3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@color/color연두색"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="@color/color주황색"
+            android:orientation="horizontal"
+           >
+            <TextView
+                android:text="horizontal 1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/color연두색"
+                />
+            <TextView
+                android:text="horizontal 2 center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/color연두색"
+                />
+            <TextView
+            android:text="horizontal 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/color연두색"
+            />
         </LinearLayout>
     </LinearLayout>
 
