@@ -14,11 +14,13 @@
         android:background="@color/color파랑색1"
         >
         <EditText
+            android:id="@+id/input_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/id"
             />
         <EditText
+            android:id="@+id/input_pw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/pw"
@@ -26,6 +28,7 @@
             />
     </LinearLayout>
     <Button
+        android:id="@+id/bt_login"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:text="@string/login"
