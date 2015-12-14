@@ -6,6 +6,7 @@
     android:layout_gravity="center"
     android:padding="5dp"
     android:background="@color/color주황색"
+    android:id="@+id/layout_login"
     >
     <LinearLayout
         android:layout_width="200dp"

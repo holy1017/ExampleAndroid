@@ -5,9 +5,9 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -19,8 +19,13 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
 
-        //setContentView(R.layout.activity_main);
+        //test();
+
         setContentView(R.layout.login_layout);  //로그인 레이아웃
+    }
+
+    private void test() {
+        setContentView(R.layout.activity_main);
 
         //툴바 설정
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -40,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
         EditText etId=(EditText) findViewById(R.id.et_id);
         EditText etPw=(EditText) findViewById(R.id.et_pw);
         Button btLogin = (Button) findViewById(R.id.bt_login);
-
     }
 
     @Override
@@ -70,5 +74,9 @@ public class MainActivity extends AppCompatActivity {
         EditText etPw=(EditText) findViewById(R.id.et_pw);
 
         Toast.makeText(this, "ID:"+etId.getText()+" PW:"+etPw.getText(), Toast.LENGTH_SHORT).show();
+
+        test();
+
+
     }
 }
