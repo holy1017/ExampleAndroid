@@ -8,6 +8,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,11 +31,16 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //하단에서 메세지 내용이 올라왔다가 사라짐
+                //하단에서 메세지 내용이 바처럼 올라왔다가 사라짐
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
+
+        EditText etId=(EditText) findViewById(R.id.et_id);
+        EditText etPw=(EditText) findViewById(R.id.et_pw);
+        Button btLogin = (Button) findViewById(R.id.bt_login);
+
     }
 
     @Override
@@ -55,5 +63,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void login(View view) {
+        EditText etId=(EditText) findViewById(R.id.et_id);
+        EditText etPw=(EditText) findViewById(R.id.et_pw);
+
+        Toast.makeText(this, "ID:"+etId.getText()+" PW:"+etPw.getText(), Toast.LENGTH_SHORT).show();
     }
 }
