@@ -18,4 +18,7 @@
     <color name="color연초색">#80ff00</color>
     <color name="color파랑색1">#0080ff</color>
     <color name="color분홍색1">#ff0080</color>
+    <color name="color연빨강색">#ff8080</color>
+    <color name="color연초록색">#80ff80</color>
+    <color name="color연파랑색">#8080ff</color>
 </resources>
