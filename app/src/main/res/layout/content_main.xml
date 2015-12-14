@@ -140,6 +140,12 @@
             android:background="@color/color연두색"
             />
         </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="텍스트 입력"
+            android:textColorHint="@color/color주황색"
+            />
     </LinearLayout>
 
 </RelativeLayout>
