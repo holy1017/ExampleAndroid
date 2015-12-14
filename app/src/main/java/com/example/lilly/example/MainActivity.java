@@ -1,6 +1,8 @@
 package com.example.lilly.example;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.os.Vibrator;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -77,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
 
         test();
 
-
+        //진동, AndroidManifest.xml 에서 권한 획득 필요
+        Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+        vib.vibrate(100);
     }
 }
