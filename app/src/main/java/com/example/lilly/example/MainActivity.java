@@ -75,12 +75,22 @@ public class MainActivity extends AppCompatActivity {
         EditText etId=(EditText) findViewById(R.id.et_id);
         EditText etPw=(EditText) findViewById(R.id.et_pw);
 
+        //토스트 메세지
         Toast.makeText(this, "ID:"+etId.getText()+" PW:"+etPw.getText(), Toast.LENGTH_SHORT).show();
 
         test();
 
+
+
         //진동, AndroidManifest.xml 에서 권한 획득 필요
         Vibrator vib = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
-        vib.vibrate(100);
+
+        //vib.vibrate(100);
+
+        long[] pattern = {10, 20, 30, 40, 100, 300};//대기,진동,대기,진동 이하 반복
+        vib.vibrate(pattern,1);//패턴,반복 횟수
+
+
+
     }
 }
